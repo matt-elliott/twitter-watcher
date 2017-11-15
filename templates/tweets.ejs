@@ -1,0 +1,17 @@
+<h4>{{siteData.length}} Tweets</h4>
+
+<div class="tweet clearfix" ng-repeat="tweet in siteData">
+    <figure class="col-md-4">
+      <img ng-src="{{tweet.profileThumbnail}}" />
+      <figcaption>{{tweet.name}}</figcaption>
+    </figure>
+    <ul class="col-md-8">
+      <li>{{tweet.username}}</li>
+      <li>Posted on {{tweet.date}}</li>
+      <li>{{tweet.text}}</li>
+      <li>Display:
+          <input type="checkbox" checked="{{tweet.display}}">
+      </li>
+    </ul>
+  </div>
+</div>

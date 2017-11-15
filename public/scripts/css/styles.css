@@ -1,0 +1,43 @@
+body {
+   font-family: 'LilGroteskRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'LilGroteskBold';
+  text-shadow: none 0;
+}
+
+#site-header h1,
+#site-header h4 {
+  display: inline-block;
+  width: auto;
+}
+.tweets-wrapper {
+  max-width: 65%;
+}
+
+.tweets-wrapper .tweet {
+  display: block;
+  background: #e7e7e7;
+  border-left: 3px solid #d3d3d3;
+  padding: 15px;
+  margin: 20px auto;
+}
+
+.tweets-wrapper figure img {
+  display: block;
+  margin-bottom: 15px;
+}
+.tweets-wrapper figure figcaption {
+  font-weight: bold;
+}
+
+.tweets-wrapper ul {
+  list-style: none;
+}
+
+.tweets-wrapper ul li {
+  margin: 15px 0;
+}

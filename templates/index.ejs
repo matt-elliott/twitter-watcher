@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Tweet Sniffer</title>
+  <meta name="description" content="">
+  <meta name="author" content="Matt Elliott">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/lil-grotesk" type="text/css"/>
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+</head>
+<body class="container" ng-app="app">
+  <header id="site-header" class="row">
+    <h1 class="text-primary">Tweet Sniffer</h1>
+    <h4 class="text-info">a 'lil meanie <i class="glyphicon glyphicon-sunglasses"></i></h4>
+  </header>
+  <section class="row">
+
+    <div class="tweets-wrapper" ng-controller="MainController as mc">
+      <div tweet-directive></div tweet-directive>
+    </div>
+  </section>
+  <script type="text/javascript" src="/js/main.js"></script>
+  
+</body>
+</html>

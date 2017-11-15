@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directeries
+node_modules/
+
+
+# Files
+.DS_STORE
+.env
+.eslintcache
+.npm
