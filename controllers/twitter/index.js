@@ -12,7 +12,8 @@ var webhookUri = 'https://hooks.slack.com/services/T80DLG8AD/B80UXJTRQ/z7NQICgGg
 var slack = new Slack();
 slack.setWebhook(webhookUri);
 
-
+/*
+    DISABLING SO MY SERVER ISNT ALWAYS STREAMING
 var twitterStream = twitter.stream('statuses/filter', {
     // list of airlines follow: '13192972,20626359,12101862,260907612,21964954,7212562,124476322,56377143,6449282,18332190,22536055'
     track: '#ProperDrivingEtiquette'
@@ -50,5 +51,5 @@ twitterStream.on('data', function(tweet) {
 twitterStream.on('error', function(error) {
   console.error(error);
 })
-
+*/
 module.exports = twitter;
